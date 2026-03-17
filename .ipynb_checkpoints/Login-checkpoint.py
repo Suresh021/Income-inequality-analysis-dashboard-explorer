@@ -17,7 +17,7 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 # Firebase REST API Key (⚠️ Replace with your actual key from Firebase Console > Project Settings > Web API Key)
-API_KEY = "AIzaSyCiHNihDixakZTXaGQ0PEAaqYakGE7z260"
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # ======================
 # Helper Functions
