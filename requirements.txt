@@ -1,8 +1,8 @@
-firebase_admin
+firebase-admin
 langchain
 openai
 pandas
 plotly
-Requests
+requests
 streamlit
-streamlit_option_menu
+streamlit-option-menu
