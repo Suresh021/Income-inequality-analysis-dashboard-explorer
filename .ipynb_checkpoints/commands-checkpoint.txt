@@ -1,0 +1,11 @@
+.venv\Scripts\activate
+cd My_app
+streamlit run app.py
+
+(Scripts) C:\Users\Suresh Kumar\AppData\Local\Programs\Python\Python313\Scripts\My_app>cd "C:\Users\Suresh Kumar\AppData\Local\Programs\Python\Python313\Scripts\My_app"
+
+(Scripts) C:\Users\Suresh Kumar\AppData\Local\Programs\Python\Python313\Scripts\My_app>python -m venv venv
+
+(Scripts) C:\Users\Suresh Kumar\AppData\Local\Programs\Python\Python313\Scripts\My_app>venv\Scripts\activate
+
+(venv) C:\Users\Suresh Kumar\AppData\Local\Programs\Python\Python313\Scripts\My_app>pip install streamlit-lottie

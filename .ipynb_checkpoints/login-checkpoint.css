@@ -1,0 +1,38 @@
+/* Title styling with gradient blue */
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #2196F3, #21CBF3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Container for login/signup inputs */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+}
+
+/* Input fields */
+.form-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Gradient button */
+.form-button button {
+    background: linear-gradient(90deg, #2196F3, #21CBF3);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
